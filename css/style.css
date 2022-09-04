@@ -1,0 +1,26 @@
+.formulario {
+    place-items: center;
+}
+
+@media (max-width:550px) {
+    .info-mis-compras {
+        flex-direction: column;
+    }
+    .btn-volverComprar{
+        padding: 2vw 2vw 0 2vw;
+        margin: auto;
+    }
+    .btn-quitar{
+        margin-top: 2vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .contenido {
+        display: flex;
+        flex-direction: column;
+    }
+    .botones-unidades {
+        flex-direction: column;
+    }
+}
